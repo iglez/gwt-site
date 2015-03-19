@@ -1,4 +1,4 @@
-Retrieving JSON
+// Send request to server and catch any errors.Retrieving JSON
 ===
 
 At this point, you've created the initial implementation of the StockWatcher application, simulating stock data in the client-side code.
@@ -427,7 +427,6 @@ The RequestCallback interface is analogous to the AsyncCallback interface in GWT
     *  In the refreshWatchList method, replace the TODO comments with the following code  .
 
     ```
-    
     // Send request to server and catch any errors.
         RequestBuilder builder = new RequestBuilder(RequestBuilder.GET, url);
     
